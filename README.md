@@ -67,37 +67,41 @@ python -m src.main "flights from BOM to GOI on 2025-08-20"
 
 # Example: With visible browser (debug mode)
 python -m src.main "amazon iphone 15" --show
-📂 Results will be saved in outputs/.
+## 📂 Results will be saved in outputs/.
 
-🔧 How It Works
-Parse query → (parse_user_query) extracts type, origin, destination, date, etc.
+## 🔧 How It Works
+>Parse query → (parse_user_query) extracts type, origin, destination, date, etc.
 
-Route job → (route()) decides which scraper to call.
+>Route job → (route()) decides which scraper to call.
 
-Scraper execution → Instantiates scraper class (CleartripScraper, AmazonScraper, etc.).
+>Scraper execution → Instantiates scraper class (CleartripScraper, AmazonScraper, etc.).
 
-Data collection → Extracts flights/products.
+>Data collection → Extracts flights/products.
 
-Export → Saves into CSV/Excel via pandas.
+>Export → Saves into CSV/Excel via pandas.
 
-🤝 Contributing
-Contributions are welcome! 🎉
+## 🤝 Contributing
+>Contributions are welcome! 🎉
 
-Add support for more websites
+>Add support for more websites
 
-Improve error handling
+>Improve error handling
 
-Enhance natural language parsing
+>Enhance natural language parsing
 
-Steps:
+## Steps:
 
-Fork this repo
+>Fork this repo
 
-Create a new branch (feature-xyz)
+>Create a new branch (feature-xyz)
 
-Commit changes
+>Commit changes
 
-Submit a PR 🚀
+>Submit a PR 🚀
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License.
+
+!<img width="1920" height="1080" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/7f3501ee-364b-4d3e-a511-4b93fed7a214" />
+!<img width="1920" height="1080" alt="Screenshot (78)" src="https://github.com/user-attachments/assets/2dc51316-e826-4c9e-b87c-b8158e5b27c5" />
+
